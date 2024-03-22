@@ -1,15 +1,6 @@
 rm(list = ls())
 RNGversion("3.5.3")
 
-install.packages("BiocManager")
-BiocManager::install("HDCytoData",force = TRUE)
-BiocManager::install("CATALYST", force = TRUE)
-BiocManager::install("FlowSOM", force = TRUE)
-BiocManager::install("ConsensusClusterPlus", force = TRUE)
-BiocManager::install("ComplexHeatmap", force = TRUE)
-BiocManager::install("scater", force= TRUE)
-BiocManager::install("diffcyt", force = TRUE)
-
 library(readxl)
 library(HDCytoData)
 library(ggplot2)
